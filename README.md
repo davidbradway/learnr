@@ -19,3 +19,10 @@ conda deactivate
 ## Command line
 
 To use command line R scripts use the command `Rscript a.R`
+
+## Docker
+
+I haven't dug into this yet, but there is also info for using Docker for R.
+
+Here's a blog post: https://colinfay.me/docker-r-reproducibility/
+
