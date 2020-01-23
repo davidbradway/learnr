@@ -16,6 +16,19 @@ conda env create --file environment.txt
 conda deactivate
 ```
 
+Here's `packrat`
+```
+install.packages("packrat")
+packrat::init(): Initializes the current working directory as a Packrat project.
+packrat::status()
+packrat::snapshot(): Save the current state of your library.
+packrat::restore(): Restore the library state saved in the most recent snapshot.
+packrat::clean(): Remove unused packages from your library.
+packrat::bundle(): Bundle a packrat project, for easy sharing.
+packrat::unbundle(): Unbundle a packrat project, generating a project directory with libraries restored.
+packrat::on(), packrat::off(): Toggle packrat mode on and off, for navigating between projects within a single R session
+```
+
 ## Command line
 
 To use command line R scripts use the command `Rscript a.R`
