@@ -31,11 +31,13 @@ packrat::on(), packrat::off(): Toggle packrat mode on and off, for navigating be
 
 ## Command line
 
-To use command line R scripts use the command `Rscript a.R`
+To use command line R scripts use the command `Rscript a.R` or `/C/Program\ Files/R/R-3.6.2/bin/R.exe CMD BATCH --vanilla a.R`
 
 ## Docker
 
 I haven't dug into this yet, but there is also info for using Docker for R.
 
 Here's a blog post: https://colinfay.me/docker-r-reproducibility/
+
+### Tutorial
 
