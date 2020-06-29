@@ -35,7 +35,7 @@ To use command line R scripts use the command `Rscript a.R` or `/C/Program\ File
 
 ## Docker
 
-I tried out the a [blog post](https://colinfay.me/docker-r-reproducibility/) and made a `Dockerfile` in this repo.
+I tried out a [Docker blog post](https://colinfay.me/docker-r-reproducibility/) and made a `Dockerfile` in this repo.
 
 ### Tutorial
 
